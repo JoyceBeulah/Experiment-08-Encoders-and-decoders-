@@ -55,16 +55,27 @@ D7 = X Y Z
 ## Figure -04 8 to 3 Decoder implementation 
 
 ### Procedure
-/* write all the steps invloved */
+Step 1: Create module encoder and decoder.
+
+Step 2: Get inputs and outputs for encoders and decoders. 
+
+Step 3: Perform "or" operation for encoder and "and" logic for decoders. 
+
+Step 4: Perform RTL LOGIC and get waveform.
+
+Step-5: End the module.
 
 
 
 ### PROGRAM 
 /*
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
+
 Developed by: R.Joyce Beulah
+
 RegisterNumber:  212222230058
 */
+
 ENCODER
 ```
 module encoder(x,y,z,d0,d1,d2,d3,d4,d5,d6,d7);
@@ -75,6 +86,7 @@ or(y,d2,d3,d6,d7);
 or(z,d1,d3,d5,d7);
 endmodule
 ```
+
 DECODER
 ```
 module deco(x,y,z,d0,d1,d2,d3,d4,d5,d6,d7);
@@ -96,9 +108,13 @@ endmodule
 ```
 
 # RTL LOGIC  
+
 ENCODER :
+
 ![image](https://github.com/JoyceBeulah/Experiment-08-Encoders-and-decoders-/assets/118343698/7da2d45e-c595-4791-9264-87d6726d5e0e)
+
 DECODER :
+
 ![image](https://github.com/JoyceBeulah/Experiment-08-Encoders-and-decoders-/assets/118343698/20473989-32d6-455e-80f4-4fe7b0549dbd)
 
 
@@ -109,16 +125,22 @@ DECODER :
 
 ### TIMING DIGRAMS  
 ENCODER :
+
 ![image](https://github.com/JoyceBeulah/Experiment-08-Encoders-and-decoders-/assets/118343698/876ff9a5-223e-452b-a1cc-3f90b011a679)
+
 DECODER :
+
 ![image](https://github.com/JoyceBeulah/Experiment-08-Encoders-and-decoders-/assets/118343698/34f36ce5-313c-476c-a5ba-e4d641b595e7)
 
 
 
 ### TRUTH TABLE 
 ENCODER:
+
 ![image](https://github.com/JoyceBeulah/Experiment-08-Encoders-and-decoders-/assets/118343698/98d00c4c-f791-4b15-9421-536ff530612b)
+
 DECODER :
+
 ![image](https://github.com/JoyceBeulah/Experiment-08-Encoders-and-decoders-/assets/118343698/ef8b0ef3-3ada-469b-9f5b-056f13defd51)
 
 
