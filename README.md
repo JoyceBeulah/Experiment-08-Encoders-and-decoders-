@@ -147,3 +147,4 @@ DECODER :
 
 
 ### RESULTS 
+Thus the program to desing encoder and decoder is done.
